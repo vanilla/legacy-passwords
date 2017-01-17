@@ -1,0 +1,23 @@
+{
+	"name": "vanilla/legacy-password",
+	"description": "Provides support for legacy password hashing in common frameworks.",
+	"type": "library",
+	"keywords": ["vanilla", "legacy", "password", "vanilla forums", "php"],
+	"license": "MIT",
+	"authors": [
+		{ "name": "Todd Burry", "email": "todd@vanillaforums.com", "role": "developer" },
+		{ "name": "Tim Gunter", "email": "tim@vanillaforums.com", "role": "developer" }
+	],
+	"require": {
+		"php": ">=5.4.0",
+        "vanilla/garden-password": "~1.0"
+	},
+	"suggest": {
+		"php": ">=5.5.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Garden\\Password\\": "src"
+		}
+	}
+}
