@@ -7,7 +7,7 @@
 
 namespace Garden\Password;
 
-require(__DIR__.'/legacy/webwiz/functions.webwizhash.php');
+require(__DIR__.'/../legacy/webwiz/functions.webwizhash.php');
 
 /**
  * Implements tha password hashing algorithm from the Web Wiz framework.

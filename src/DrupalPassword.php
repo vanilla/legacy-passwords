@@ -7,7 +7,7 @@
 
 namespace Garden\Password;
 
-require(__DIR__.'/legacy/drupal/password.inc.php');
+require(__DIR__.'/../legacy/drupal/password.inc.php');
 
 /**
  * Implements tha password hashing algorithm from the Drupal framework.
