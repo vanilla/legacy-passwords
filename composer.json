@@ -1,5 +1,5 @@
 {
-	"name": "vanilla/legacy-password",
+	"name": "vanilla/legacy-passwords",
 	"description": "Provides support for legacy password hashing in common frameworks.",
 	"type": "library",
 	"keywords": ["vanilla", "legacy", "password", "vanilla forums", "php"],
